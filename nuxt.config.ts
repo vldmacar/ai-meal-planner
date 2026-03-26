@@ -1,0 +1,1 @@
+export default defineNuxtConfig({ devtools: { enabled: true }, modules: ['@nuxtjs/tailwindcss'], css: ['~/assets/css/main.css'], app: { head: { title: 'AI Meal Planner', meta: [{ name: 'description', content: 'Personalized meal planning with AI' }] } } })
